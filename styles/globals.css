@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-Light.woff") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-Book.woff") format("truetype");
+  font-style: normal;
+  font-weight: 450;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-BookItalic.woff") format("truetype");
+  font-style: italic;
+  font-weight: 450;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-LightItalic.woff") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-Medium.woff") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-MediumItalic.woff") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-Bold.woff") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-BoldItalic.woff") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-Black.woff") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-BlackItalic.woff") format("truetype");
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Reckless Neue";
+  src: url("/fonts/RecklessNeue-MediumItalic.woff") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
