@@ -16,6 +16,7 @@ const ToggleButton = ({
       selected={isSelected}
       onClick={() => handleToggleChange(!isSelected)}
       bgColor={bgColor}
+      data-testid="toggle-element"
     >
       <DialogButton selected={isSelected}></DialogButton>
     </ToggleButtonWrapper>

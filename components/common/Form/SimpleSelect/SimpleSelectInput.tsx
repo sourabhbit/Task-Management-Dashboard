@@ -33,6 +33,7 @@ const SimpleSelectInput = forwardRef(
             value={value}
             onChange={(e) => onChange(e.target.value)}
             style={{ cursor: "pointer !important" }}
+            data-testid="select-element"
           >
             {options.map((item: DropDownTypes, index: number) => {
               return (
