@@ -1,3 +1,4 @@
+import "regenerator-runtime/runtime";
 import type { AppContext, AppProps } from "next/app";
 import { wrapper } from "../slices/store";
 import "../styles/globals.css";
