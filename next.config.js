@@ -48,27 +48,6 @@ const nextConfig = {
       },
     ];
   },
-  redirects: async () => [
-    {
-      source: "/calculators/fixed-deposit-returns-calculator",
-      destination: "/calculators/fd-calculator",
-      permanent: true,
-    },
-  ],
-  rewrites: async () => [
-    {
-      source: "/",
-      destination: "/html/index.html",
-    },
-    {
-      source: "/calculators",
-      destination: "/calculators/",
-    },
-    {
-      source: "/bank",
-      destination: "/",
-    },
-  ],
 };
 
 module.exports = { ...nextConfig };
