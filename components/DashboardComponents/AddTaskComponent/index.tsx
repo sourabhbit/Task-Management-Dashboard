@@ -76,7 +76,7 @@ const AddTaskComponent = ({ onSubmit }: any) => {
       title: "",
       description: "",
       dueDate: "",
-      status: "",
+      status: "pending",
     });
     setFormErrors({
       title: "",
@@ -91,7 +91,10 @@ const AddTaskComponent = ({ onSubmit }: any) => {
       <Button onClick={handleAddTask}>Add Task</Button>
       <RenderModalOrBottomSheet
         isVisible={showModal}
-        onClose={() => setShowModal(false)}
+        onClose={() => {
+          setShowModal(false);
+          resetFormValue();
+        }}
         modalWidth="600px"
         title="Add Task"
       >
