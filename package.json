@@ -43,6 +43,6 @@
     "babel-plugin-styled-components": "^2.1.4"
   },
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   }
 }
