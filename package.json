@@ -28,6 +28,7 @@
     "react-dom": "^18.3.1",
     "react-modal-sheet": "^3.3.0",
     "react-redux": "^9.1.2",
+    "regenerator-runtime": "^0.14.1",
     "sharp": "^0.33.5",
     "styled-components": "^6.1.13",
     "typescript": "5.6.3",
